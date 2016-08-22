@@ -317,18 +317,18 @@ else {
 **Preferred:**
 ```swift
 class SomeClass {
-  func someFunc() {
-   doSomething()
-  }
+    func someFunc() {
+        doSomething()
+    }
  }
  ```
  
  **Not Preferred:**
  ```swift
 class SomeClass {
-  func someFunc() {
-   doSomething()
-  }
+    func someFunc() {
+        doSomething()
+    }
   
  }
  ```
