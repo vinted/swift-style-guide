@@ -310,6 +310,27 @@ else {
 ```
 
 * There should be exactly one blank line between methods to aid in visual clarity and organization. Whitespace within methods should separate functionality, but having too many sections in a method often means you should refactor into several methods.
+ 
+* No blank lines between the last method and closing bracket of a class/struct/enum.
+
+**Preferred:**
+```swift
+class SomeClass {
+    func someFunc() {
+        doSomething()
+    }
+ }
+ ```
+ 
+ **Not Preferred:**
+ ```swift
+class SomeClass {
+    func someFunc() {
+        doSomething()
+    }
+  
+ }
+ ```
 
 * There should be no blank lines after an opening brace or before a closing brace.
 
